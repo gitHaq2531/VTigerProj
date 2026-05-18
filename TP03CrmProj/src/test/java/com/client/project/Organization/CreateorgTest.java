@@ -21,8 +21,10 @@ public class CreateorgTest extends BaseClass {
 		hp.getOrgLink().click();
 		
 	
-		Orgpage op1=new Orgpage(driver);
-	  	op1.getCreateNewOrgBtn().click();
+		Orgpage op=new Orgpage(driver);
+	  	op.getCreateNewOrgBtn().click();
+	  	
+	  	
 	  	
 	  	
 		
