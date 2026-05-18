@@ -36,9 +36,7 @@ public class LoginPage  {
 	}
 
 	
-	public void LoginToApp(String Url,String Username, String Password) {
-		 driver.get(Url);
-		 driver.manage().window().maximize();
+	public void LoginToApp(String Username, String Password) {
 		 useredit.sendKeys(Username);
 		 passwordedit.sendKeys(Password);
 		 login.click();
@@ -46,5 +44,4 @@ public class LoginPage  {
 	}
 	
 	
-
 }
