@@ -30,6 +30,7 @@ public class BaseClass {
 	public void configBC() throws Throwable {
 		String BROWSER = fLib.getDataFromProperties("Browser");
 		String URL = fLib.getDataFromProperties("Url");
+		driver.get(URL);
 		sdriver=driver;
 	}
 	@BeforeMethod
