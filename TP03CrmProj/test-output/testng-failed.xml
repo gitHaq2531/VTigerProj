@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.client.project.Organization.CreateorgTest">
         <methods>
           <include name="configBC"/>
@@ -14,6 +15,19 @@
           <include name="configAM"/>
         </methods>
       </class> <!-- com.client.project.Organization.CreateorgTest -->
+=======
+      <class name="com.client.project.Contact.CreateContactTest">
+        <methods>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="createContactTest"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- com.client.project.Contact.CreateContactTest -->
+>>>>>>> refs/heads/master
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
