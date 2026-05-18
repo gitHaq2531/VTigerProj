@@ -12,6 +12,7 @@ public class ExcelUtility {
 		FileInputStream fis=new FileInputStream("./TestData/TestScriptData.xlsx");
 		Workbook wb = WorkbookFactory.create(fis);
 		 String data = wb.getSheet(Sheetname).getRow(rownum).getCell(cellnum).toString();
+		 wb.close();
 		 return data;
 	}
 
