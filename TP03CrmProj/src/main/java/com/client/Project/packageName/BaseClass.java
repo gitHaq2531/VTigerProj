@@ -34,6 +34,19 @@ public class BaseClass {
 		String BROWSER = fLib.getDataFromProperties("Browser");
 		String URL = fLib.getDataFromProperties("Url");
 		
+
+		
+		if(BROWSER.equals("chrome")){
+  			driver=new ChromeDriver();
+  		}else if(BROWSER.equals("firefox")){
+  				driver=new FirefoxDriver();
+  			}
+  		else if(BROWSER.equals("edge")){
+  			driver=new EdgeDriver();
+  		}else {
+  			driver= new ChromeDriver();
+  		}
+
 		if(BROWSER.equals("chrome")) {
 			driver = new ChromeDriver();
 		}else if(BROWSER.equals("firefox")) {
@@ -43,8 +56,10 @@ public class BaseClass {
 		}else {
 			driver = new ChromeDriver();
 		}
+
 		driver.manage().window().maximize();
 		driver.get(URL);
+		
 		sdriver=driver;
 	}
 	@BeforeMethod
