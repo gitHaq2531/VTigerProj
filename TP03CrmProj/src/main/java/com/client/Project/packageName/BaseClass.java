@@ -1,5 +1,7 @@
 package com.client.Project.packageName;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -48,17 +50,8 @@ public class BaseClass {
   			driver= new ChromeDriver();
   		}
 
-		if(BROWSER.equals("chrome")) {
-			driver = new ChromeDriver();
-		}else if(BROWSER.equals("firefox")) {
-			driver = new FirefoxDriver();
-		}else if(BROWSER.equals("edge")) {
-			driver = new EdgeDriver();
-		}else {
-			driver = new ChromeDriver();
-		}
-
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(URL);
 		
 		sdriver=driver;
@@ -70,7 +63,8 @@ public class BaseClass {
 		String PASSWORD = fLib.getDataFromProperties("Password");
 		LoginPage lp = new LoginPage(driver);
 		lp.LoginToApp(USERNAME, PASSWORD);
-		hp = new HomePage(driver);
+		hp= new HomePage(driver);
+		
 		
 	}
 	@AfterMethod

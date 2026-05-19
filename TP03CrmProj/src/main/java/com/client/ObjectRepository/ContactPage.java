@@ -25,6 +25,28 @@ public class ContactPage {
 	public WebElement getHeaderMsg() {
 		return headerMsg;
 	}
+	@FindBy(name = "lastname")
+	private WebElement lastnameEdit;
+	
+	public WebElement getLastnameEdit() {
+		return lastnameEdit;
+	}
+	@FindBy(xpath = "//input[@title='Save [Alt+S]']")
+	private WebElement saveBtn;
+	
+	public WebElement getSaveBtn() {
+		return saveBtn;
+	}
+	
+	public void createContact(String lastName) {
+		createNewContact.click();
+		lastnameEdit.sendKeys(lastName);
+		saveBtn.click();
+	}
+	
+	
+	
+	
 	
 
 }
