@@ -24,6 +24,7 @@ public class CreateContactTest extends BaseClass{
 		String headerMsg = cp.getHeaderMsg().getText();
 		boolean status = headerMsg.contains(lastName);
 		Assert.assertEquals(status, true);
+		System.out.println(status);
 		
 		
 	}
