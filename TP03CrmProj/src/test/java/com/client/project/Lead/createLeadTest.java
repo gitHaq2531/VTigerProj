@@ -11,7 +11,7 @@ public class createLeadTest extends BaseClass{
 	@Test
 	public void createleadTest() throws Throwable {
 		String lastName = eLib.getDataFromExcel("org", 4, 2)+ jLib.getRandomNum();
-		String company = eLib.getDataFromExcel("org", 16, 2)+ jLib.getRandomNum();
+		String company = eLib.getDataFromExcel("org", 19, 2)+ jLib.getRandomNum();
 		
 		hp.getLeadslink().click();
 		
