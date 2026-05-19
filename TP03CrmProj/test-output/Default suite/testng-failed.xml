@@ -3,20 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.client.project.Opportunities.createOpportunitiestest"/>
-      <class name="com.client.project.Organization.CreateorgTest">
+      <class name="com.client.project.Lead.createLeadTest">
         <methods>
           <include name="configBC"/>
           <include name="configBS"/>
           <include name="configAC"/>
           <include name="configAS"/>
-          <include name="createOpportunitiesTest"/>
-          <include name="createOrgTest"/>
+          <include name="createleadTest"/>
           <include name="configBM"/>
           <include name="configAM"/>
         </methods>
-      </class> <!-- com.client.project.Opportunities.createOpportunitiestest -->
-       <!-- com.client.project.Organization.CreateorgTest -->
+      </class> <!-- com.client.project.Lead.createLeadTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

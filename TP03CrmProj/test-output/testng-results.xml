@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-19T12:52:33 IST" name="Default suite" finished-at="2026-05-19T12:52:48 IST" duration-ms="15003">
+  <suite started-at="2026-05-19T16:01:49 IST" name="Default suite" finished-at="2026-05-19T16:02:00 IST" duration-ms="10619">
     <groups>
     </groups>
-    <test started-at="2026-05-19T12:52:33 IST" name="Default test" finished-at="2026-05-19T12:52:48 IST" duration-ms="15003">
-      <class name="com.client.project.Contact.CreateContactTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.Contact.CreateContactTest@393671df]" started-at="2026-05-19T12:52:33 IST" name="configBS" finished-at="2026-05-19T12:52:33 IST" duration-ms="58" status="PASS">
+    <test started-at="2026-05-19T16:01:49 IST" name="Default test" finished-at="2026-05-19T16:02:00 IST" duration-ms="10619">
+      <class name="com.client.project.Lead.createLeadTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:01:49 IST" name="configBS" finished-at="2026-05-19T16:01:49 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.Contact.CreateContactTest@393671df]" started-at="2026-05-19T12:52:34 IST" name="configBC" finished-at="2026-05-19T12:52:37 IST" duration-ms="3771" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:01:49 IST" name="configBC" finished-at="2026-05-19T16:01:53 IST" duration-ms="3557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Contact.CreateContactTest@393671df]" started-at="2026-05-19T12:52:37 IST" name="configBM" finished-at="2026-05-19T12:52:39 IST" duration-ms="2049" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:01:53 IST" name="configBM" finished-at="2026-05-19T16:01:53 IST" duration-ms="340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createContactWithOrgTest()[pri:0, instance:com.client.project.Contact.CreateContactTest@393671df]" started-at="2026-05-19T12:52:39 IST" name="createContactWithOrgTest" finished-at="2026-05-19T12:52:47 IST" duration-ms="8098" status="PASS">
+        <test-method signature="createleadTest()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:01:53 IST" name="createleadTest" finished-at="2026-05-19T16:01:59 IST" duration-ms="5648" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createContactWithOrgTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.Contact.CreateContactTest@393671df]" started-at="2026-05-19T12:52:47 IST" name="configAM" finished-at="2026-05-19T12:52:48 IST" duration-ms="773" status="PASS">
+        </test-method> <!-- createleadTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:01:59 IST" name="configAM" finished-at="2026-05-19T16:02:00 IST" duration-ms="773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.Contact.CreateContactTest@393671df]" started-at="2026-05-19T12:52:48 IST" name="configAC" finished-at="2026-05-19T12:52:48 IST" duration-ms="249" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:02:00 IST" name="configAC" finished-at="2026-05-19T16:02:00 IST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.Contact.CreateContactTest@393671df]" started-at="2026-05-19T12:52:49 IST" name="configAS" finished-at="2026-05-19T12:52:49 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:02:00 IST" name="configAS" finished-at="2026-05-19T16:02:00 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.client.project.Contact.CreateContactTest -->
+      </class> <!-- com.client.project.Lead.createLeadTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
