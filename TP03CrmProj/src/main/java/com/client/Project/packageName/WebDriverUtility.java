@@ -13,8 +13,8 @@ public class WebDriverUtility {
 	}
 		
 		
-		public void waitForElementPresent(WebDriver driver,WebElement element) {
-			WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(20));
+	public void waitForElementPresent(WebDriver driver,WebElement element) {
+		WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(20));
 			wait.until(ExpectedConditions.visibilityOf(element));
 		}
 		

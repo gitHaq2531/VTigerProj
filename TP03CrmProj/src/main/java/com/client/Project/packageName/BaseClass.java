@@ -51,7 +51,8 @@ public class BaseClass {
   		}
 
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		wLib.waitForPageLoad(driver);
+
 		driver.get(URL);
 		
 		sdriver=driver;

@@ -1,10 +1,12 @@
 package com.client.project.Organization;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.client.ObjectRepository.HomePage;
 import com.client.ObjectRepository.Orgpage;
 import com.client.Project.packageName.BaseClass;
+
 
 
 /**
@@ -15,14 +17,32 @@ import com.client.Project.packageName.BaseClass;
 
 public class CreateorgTest extends BaseClass {
 	@Test
-	public void createOrgTest() {
-				
+	public void createOrgTest() throws Throwable {
+		
+		/*read test script data from excel file*/
+		String orgName =eLib.getDataFromExcel("org", 1, 2)+jLib.getRandomNum();
+		
+		/*step2:navigate to organization homepage module*/
 		HomePage hp=new HomePage(driver);
 		hp.getOrgLink().click();
-
-		Orgpage op1=new Orgpage(driver);
-	  	op1.getCreateNewOrgBtn().click();
-	
-	}
 		
+
+	  	/*step-3: click on "create organization" button*/
+		Orgpage op=new Orgpage(driver);
+	  	op.getCreateNewOrgBtn().click();
+	  	
+	  	 /*step-4:-enter all the details and create new organization using buisness method*/
+	  	op.createOrg(orgName);
+	    
+	  	/*verify the header as expected result*/
+ 		String HeaderMsg = op.getHeadermsg().getText();
+ 		boolean status = HeaderMsg.contains(orgName);
+		System.out.println(HeaderMsg);
+		Assert.assertEquals(status, true);
+  		
+   }
+	
 }
+
+		
+

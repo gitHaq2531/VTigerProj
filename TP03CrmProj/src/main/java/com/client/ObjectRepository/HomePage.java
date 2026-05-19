@@ -75,8 +75,6 @@ public class HomePage {
 		return campaignlink;
 	}
 	
-	
-
 	public WebElement getInvoiceLink() {
 		return invoiceLink;
 	}
@@ -89,16 +87,11 @@ public class HomePage {
 		return signoutlink;
 	}
 
-
-
     public void navigateToCampaignPage() {
 	     Actions act=new Actions(driver);
 	      act.moveToElement(morelink).perform();
 	        campaignlink.click();
       }
-    
-
-
     
 
     public void navigateToInvoicePage() {

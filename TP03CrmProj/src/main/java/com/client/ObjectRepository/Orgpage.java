@@ -51,7 +51,7 @@ public class Orgpage {
 	 
 	 public void createOrg(String orgName ) {
 		 orgNameEdt.sendKeys(orgName);
-		 streetEdt.sendKeys("Mum");
+		 streetEdt.sendKeys("Mumbai");
 		 saveBtn.click();                                         
 	 }
 	
