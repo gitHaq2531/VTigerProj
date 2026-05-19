@@ -1,5 +1,7 @@
 package com.client.project.Organization;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -41,6 +43,24 @@ public class CreateorgTest extends BaseClass {
 		Assert.assertEquals(status, true);
   		
    }
+	@Test
+	public void createOrgWithEvent() throws Throwable {
+		String orgName =eLib.getDataFromExcel("org", 1, 2)+jLib.getRandomNum();
+		hp.getOrgLink().click();
+		
+		Orgpage op=new Orgpage(driver);
+	  	op.getCreateNewOrgBtn().click();
+	  	op.createOrg(orgName);
+	  	
+	  	driver.findElement(By.linkText("Add Event")).click();
+	  	driver.findElement(By.name("subject")).sendKeys("event1");
+	  	driver.findElement(By.id("jscal_trigger_date_start")).click();
+	  	Thread.sleep(2000);
+
+
+		
+	}
+	
 	
 }
 

@@ -2,105 +2,67 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2026-05-19T16:29:08 IST" name="Default suite" finished-at="2026-05-19T16:29:25 IST" duration-ms="16680">
-=======
-  <suite started-at="2026-05-19T16:01:49 IST" name="Default suite" finished-at="2026-05-19T16:02:00 IST" duration-ms="10619">
->>>>>>> refs/heads/master
+  <suite started-at="2026-05-19T17:39:43 IST" name="Default suite" finished-at="2026-05-19T17:39:57 IST" duration-ms="14657">
     <groups>
     </groups>
-<<<<<<< HEAD
-    <test started-at="2026-05-19T16:29:08 IST" name="Default test" finished-at="2026-05-19T16:29:25 IST" duration-ms="16680">
-      <class name="com.client.project.Product.CreateProductTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.Product.CreateProductTest@44c03695]" started-at="2026-05-19T16:29:08 IST" name="configBS" finished-at="2026-05-19T16:29:08 IST" duration-ms="43" status="PASS">
-=======
-    <test started-at="2026-05-19T16:01:49 IST" name="Default test" finished-at="2026-05-19T16:02:00 IST" duration-ms="10619">
-      <class name="com.client.project.Lead.createLeadTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:01:49 IST" name="configBS" finished-at="2026-05-19T16:01:49 IST" duration-ms="41" status="PASS">
->>>>>>> refs/heads/master
+    <test started-at="2026-05-19T17:39:43 IST" name="Default test" finished-at="2026-05-19T17:39:57 IST" duration-ms="14657">
+      <class name="com.client.project.Organization.CreateorgTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.Organization.CreateorgTest@393671df]" started-at="2026-05-19T17:39:43 IST" name="configBS" finished-at="2026-05-19T17:39:43 IST" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.Product.CreateProductTest@44c03695]" started-at="2026-05-19T16:29:08 IST" name="configBC" finished-at="2026-05-19T16:29:15 IST" duration-ms="6817" status="PASS">
-=======
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:01:49 IST" name="configBC" finished-at="2026-05-19T16:01:53 IST" duration-ms="3557" status="PASS">
->>>>>>> refs/heads/master
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.Organization.CreateorgTest@393671df]" started-at="2026-05-19T17:39:43 IST" name="configBC" finished-at="2026-05-19T17:39:46 IST" duration-ms="3690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Product.CreateProductTest@44c03695]" started-at="2026-05-19T16:29:15 IST" name="configBM" finished-at="2026-05-19T16:29:17 IST" duration-ms="2179" status="PASS">
-=======
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:01:53 IST" name="configBM" finished-at="2026-05-19T16:01:53 IST" duration-ms="340" status="PASS">
->>>>>>> refs/heads/master
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Organization.CreateorgTest@393671df]" started-at="2026-05-19T17:39:46 IST" name="configBM" finished-at="2026-05-19T17:39:47 IST" duration-ms="370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-<<<<<<< HEAD
-        <test-method signature="CreateInvoiceWithProduct()[pri:0, instance:com.client.project.Product.CreateProductTest@44c03695]" started-at="2026-05-19T16:29:17 IST" name="CreateInvoiceWithProduct" finished-at="2026-05-19T16:29:24 IST" duration-ms="7503" status="PASS">
-=======
-        <test-method signature="createleadTest()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:01:53 IST" name="createleadTest" finished-at="2026-05-19T16:01:59 IST" duration-ms="5648" status="PASS">
->>>>>>> refs/heads/master
+        <test-method signature="createOrgWithEvent()[pri:0, instance:com.client.project.Organization.CreateorgTest@393671df]" started-at="2026-05-19T17:39:47 IST" name="createOrgWithEvent" finished-at="2026-05-19T17:39:56 IST" duration-ms="9255" status="PASS">
           <reporter-output>
           </reporter-output>
-<<<<<<< HEAD
-        </test-method> <!-- CreateInvoiceWithProduct -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.Product.CreateProductTest@44c03695]" started-at="2026-05-19T16:29:24 IST" name="configAM" finished-at="2026-05-19T16:29:25 IST" duration-ms="88" status="FAIL">
-          <exception class="org.openqa.selenium.json.JsonException">
+        </test-method> <!-- createOrgWithEvent -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.Organization.CreateorgTest@393671df]" started-at="2026-05-19T17:39:56 IST" name="configAM" finished-at="2026-05-19T17:39:57 IST" duration-ms="1263" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
+              <![CDATA[element click intercepted: Element <a href="index.php?module=Users&amp;action=Logout" class="drop_down_usersettings">...</a> is not clickable at point (43, 13). Other element would receive the click: <a class="hdrLink" href="index.php?action=index&amp;module=...&amp;parenttab=My Home Page">Calendar</a>
+  (Session info: chrome=141.0.7390.55)
 Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d5f91cb0970105f7caffedaeb4fd4e8, actions {actions=[org.openqa.selenium.interactions.Sequence@5e8604bf]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55157}, goog:processID: 21928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55157/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d5f91cb0970105f7caffedaeb4fd4e8]]>
+Command: [8082574bf564d843e95bcec3dfd4f3d3, clickElement {id=f.59F7B89240FD9AFE532AEE36BBAA7EE1.d.BB52CB3253F0ECAEF0A942592B2A087E.e.367}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.55, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: /var/folders/s4/g5jdrl354dv...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57969}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57969/devtoo..., se:cdpVersion: 141.0.7390.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (8082574bf564d843e95bcec3dfd4f3d3)] -> link text: Sign Out]
+Session ID: 8082574bf564d843e95bcec3dfd4f3d3]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="index.php?module=Users&amp;action=Logout" class="drop_down_usersettings">...</a> is not clickable at point (43, 13). Other element would receive the click: <a class="hdrLink" href="index.php?action=index&amp;module=...&amp;parenttab=My Home Page">Calendar</a>
+  (Session info: chrome=141.0.7390.55)
 Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '25.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d5f91cb0970105f7caffedaeb4fd4e8, actions {actions=[org.openqa.selenium.interactions.Sequence@5e8604bf]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55157}, goog:processID: 21928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55157/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d5f91cb0970105f7caffedaeb4fd4e8
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:521)
-at org.openqa.selenium.json.JsonOutput.lambda$new$15(JsonOutput.java:179)
-at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
-at org.openqa.selenium.json.JsonOutput.lambda$new$21(JsonOutput.java:201)
-at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
-at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
-at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
-at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
-at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:201)
-at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
-at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:219)
-at java.base/java.util.Map.forEach(Map.java:733)
-at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:214)
-at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:397)
-at org.openqa.selenium.json.Json.toJson(Json.java:134)
-at org.openqa.selenium.json.Json.toJson(Json.java:120)
-at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:244)
-at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:113)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:211)
+Command: [8082574bf564d843e95bcec3dfd4f3d3, clickElement {id=f.59F7B89240FD9AFE532AEE36BBAA7EE1.d.BB52CB3253F0ECAEF0A942592B2A087E.e.367}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.55, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: /var/folders/s4/g5jdrl354dv...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57969}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:57969/devtoo..., se:cdpVersion: 141.0.7390.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (8082574bf564d843e95bcec3dfd4f3d3)] -> link text: Sign Out]
+Session ID: 8082574bf564d843e95bcec3dfd4f3d3
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:699)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
-at org.openqa.selenium.interactions.Actions.perform(Actions.java:581)
-at com.client.ObjectRepository.HomePage.logout(HomePage.java:106)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at com.client.ObjectRepository.HomePage.logout(HomePage.java:107)
 at com.client.Project.packageName.BaseClass.configAM(BaseClass.java:74)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
 at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
@@ -114,7 +76,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 at org.testng.TestRunner.privateRun(TestRunner.java:739)
 at org.testng.TestRunner.run(TestRunner.java:614)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -130,76 +92,21 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:432)
-at org.openqa.selenium.json.Json.toJson(Json.java:132)
-... 43 more
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:517)
-... 64 more
-Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Do you want to Overwrite the existing address with this selected organization(Pyramid Lenovo_4927) address details?}
-  (Session info: chrome=148.0.7778.168): Do you want to Overwrite the existing address with this selected organization(Pyramid Lenovo_4927) address details?
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3d5f91cb0970105f7caffedaeb4fd4e8, findElement {using=xpath, value=//img[@src='themes/softed/images/user.PNG']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55157}, goog:processID: 21928, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55157/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d5f91cb0970105f7caffedaeb4fd4e8
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:140)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy16.getWrappedElement(Unknown Source)
-at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:262)
-at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:211)
-at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:74)
-at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:83)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-... 66 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.json.JsonException -->
-=======
-        </test-method> <!-- createleadTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:01:59 IST" name="configAM" finished-at="2026-05-19T16:02:00 IST" duration-ms="773" status="PASS">
->>>>>>> refs/heads/master
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.Product.CreateProductTest@44c03695]" started-at="2026-05-19T16:29:25 IST" name="configAC" finished-at="2026-05-19T16:29:25 IST" duration-ms="0" status="SKIP">
-=======
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:02:00 IST" name="configAC" finished-at="2026-05-19T16:02:00 IST" duration-ms="232" status="PASS">
->>>>>>> refs/heads/master
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.Organization.CreateorgTest@393671df]" started-at="2026-05-19T17:39:57 IST" name="configAC" finished-at="2026-05-19T17:39:57 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.Product.CreateProductTest@44c03695]" started-at="2026-05-19T16:29:25 IST" name="configAS" finished-at="2026-05-19T16:29:25 IST" duration-ms="1" status="PASS">
-=======
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.Lead.createLeadTest@20ce78ec]" started-at="2026-05-19T16:02:00 IST" name="configAS" finished-at="2026-05-19T16:02:00 IST" duration-ms="0" status="PASS">
->>>>>>> refs/heads/master
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.Organization.CreateorgTest@393671df]" started-at="2026-05-19T17:39:57 IST" name="configAS" finished-at="2026-05-19T17:39:57 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-<<<<<<< HEAD
-      </class> <!-- com.client.project.Product.CreateProductTest -->
-=======
-      </class> <!-- com.client.project.Lead.createLeadTest -->
->>>>>>> refs/heads/master
+      </class> <!-- com.client.project.Organization.CreateorgTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
