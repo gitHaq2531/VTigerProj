@@ -19,10 +19,10 @@ public class CreateorgTest extends BaseClass {
 	@Test
 	public void createOrgTest() throws Throwable {
 		
-		/*read test script data from excel file*/
+		/*step-1:read test script data from excel file*/
 		String orgName =eLib.getDataFromExcel("org", 1, 2)+jLib.getRandomNum();
 		
-		/*step2:navigate to organization homepage module*/
+		/*step-2:navigate to organization homepage module*/
 		HomePage hp=new HomePage(driver);
 		hp.getOrgLink().click();
 		
@@ -34,7 +34,7 @@ public class CreateorgTest extends BaseClass {
 	  	 /*step-4:-enter all the details and create new organization using buisness method*/
 	  	op.createOrg(orgName);
 	    
-	  	/*verify the header as expected result*/
+	  	/*step-5:verify the header as expected result*/
  		String HeaderMsg = op.getHeadermsg().getText();
  		boolean status = HeaderMsg.contains(orgName);
 		System.out.println(HeaderMsg);
