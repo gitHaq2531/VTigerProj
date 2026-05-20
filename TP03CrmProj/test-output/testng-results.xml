@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-20T17:08:05 IST" name="Default suite" finished-at="2026-05-20T17:08:39 IST" duration-ms="34928">
+  <suite started-at="2026-05-20T17:49:47 IST" name="Default suite" finished-at="2026-05-20T17:49:56 IST" duration-ms="8458">
     <groups>
     </groups>
-    <test started-at="2026-05-20T17:08:05 IST" name="Default test" finished-at="2026-05-20T17:08:39 IST" duration-ms="34928">
+    <test started-at="2026-05-20T17:49:47 IST" name="Default test" finished-at="2026-05-20T17:49:56 IST" duration-ms="8458">
       <class name="com.client.project.Organization.CreateorgTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:08:04 IST" name="configBS" finished-at="2026-05-20T17:08:05 IST" duration-ms="46" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:49:47 IST" name="configBS" finished-at="2026-05-20T17:49:47 IST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:08:05 IST" name="configBC" finished-at="2026-05-20T17:08:09 IST" duration-ms="4252" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:49:47 IST" name="configBC" finished-at="2026-05-20T17:49:50 IST" duration-ms="2135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:08:09 IST" name="configBM" finished-at="2026-05-20T17:08:12 IST" duration-ms="3068" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:49:50 IST" name="configBM" finished-at="2026-05-20T17:49:52 IST" duration-ms="2350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="quickcreatewithorg()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:08:12 IST" name="quickcreatewithorg" finished-at="2026-05-20T17:08:38 IST" duration-ms="26230" status="PASS">
+        <test-method signature="editOrg()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:49:52 IST" name="editOrg" finished-at="2026-05-20T17:49:55 IST" duration-ms="2803" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quickcreatewithorg -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:08:38 IST" name="configAM" finished-at="2026-05-20T17:08:39 IST" duration-ms="988" status="PASS">
+        </test-method> <!-- editOrg -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:49:55 IST" name="configAM" finished-at="2026-05-20T17:49:56 IST" duration-ms="836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:08:39 IST" name="configAC" finished-at="2026-05-20T17:08:39 IST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:49:56 IST" name="configAC" finished-at="2026-05-20T17:49:56 IST" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:08:40 IST" name="configAS" finished-at="2026-05-20T17:08:40 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.Organization.CreateorgTest@7e6f74c]" started-at="2026-05-20T17:49:56 IST" name="configAS" finished-at="2026-05-20T17:49:56 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->

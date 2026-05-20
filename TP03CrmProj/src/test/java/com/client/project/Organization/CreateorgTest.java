@@ -52,23 +52,25 @@ public class CreateorgTest extends BaseClass {
 	
 
 	@Test
-	public void createOrgWithEvent() throws Throwable {
-		String orgName =eLib.getDataFromExcel("org", 1, 2)+jLib.getRandomNum();
+	public void editOrg() throws Throwable {
+		
 		hp.getOrgLink().click();
 		
+		driver.findElement(By.id("40922")).click();
+		
 		Orgpage op=new Orgpage(driver);
-	  	op.getCreateNewOrgBtn().click();
-	  	op.createOrg(orgName);
-	  	
-	  	driver.findElement(By.linkText("Add Event")).click();
-	  	driver.findElement(By.name("subject")).sendKeys("event1");
-	  	 
-	  	driver.findElement(By.id("jscal_trigger_date_start")).click();
-	  	
-	  	Thread.sleep(5000);
-	  	driver.findElement(By.linkText("Today")).click();
-
+		op.getEditorg().click();
+		
+	  String actualMsg = op.getHeaderOrgEdit().getText().trim();
+	Assert.assertTrue( actualMsg.contains("Editing Organization Information"));
+       
+	    System.out.println("Edit message verified successfully");
+ 	
 	}
+	  	
+
+
+	
 	
 	@Test
 	public void quickcreatewithorg() throws Throwable {
