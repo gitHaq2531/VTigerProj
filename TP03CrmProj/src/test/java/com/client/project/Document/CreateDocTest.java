@@ -1,5 +1,6 @@
 package com.client.project.Document;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -33,6 +34,7 @@ public class CreateDocTest extends BaseClass {
 	@Test
 	public void verifyEditRecord() throws Throwable {
 		hp.getDocLink().click();
+		
 		driver.findElement(By.id("31262")).click();
 		
 		Docpage dp=new Docpage(driver);
@@ -41,10 +43,29 @@ public class CreateDocTest extends BaseClass {
 		
 	    String actualMsg = dp.getHeaderEdit().getText().trim();
 
-		Assert.assertTrue( actualMsg.contains("Editing Document Information"));
+		Assert.assertTrue(actualMsg.contains("Editing Document Information"));
 		
 	    System.out.println("Edit message verified successfully");
- 		
+ 	
+	}
+	
+	@Test
+	public void VerifyDeleteRecord() throws Throwable {
+		hp.getDocLink().click();
+	    driver.findElement(By.id("35983")).click();
+
+	    Docpage dp = new Docpage(driver);
+	    dp.getDeleteDoc().click();
+
+	    Alert alt = driver.switchTo().alert();
+
+	    String actualPopupMsg = alt.getText();
+	    System.out.println(actualPopupMsg);
+
+	    Assert.assertTrue(actualPopupMsg.contains("Delete"),"Delete confirmation popup not displayed correctly" );
+	  
+	    alt.dismiss();
+		
 	}
 }
 

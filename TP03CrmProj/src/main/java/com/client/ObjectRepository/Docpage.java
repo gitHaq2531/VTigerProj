@@ -31,6 +31,8 @@ public class Docpage {
 	@FindBy(xpath="//span[@class='lvtHeaderText']")
 	private WebElement headerEdit;
 	
+	@FindBy(linkText = "del")
+	private WebElement deleteDoc;
 	
 	
 	public WebElement getCreateDoc() {
@@ -40,6 +42,12 @@ public class Docpage {
 	
 	public WebElement getEditDoc() {
 		return editDoc;
+	}
+
+	
+
+	public WebElement getDeleteDoc() {
+		return deleteDoc;
 	}
 
 
