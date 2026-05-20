@@ -21,7 +21,10 @@ public class createOpportunitiestest extends BaseClass{
 		boolean status = actMsg.contains(OppName);
 		Assert.assertEquals(status, true);
 		System.out.println(status);
+		System.out.println("updated");
+			
+		}
 		
 	}
 
-}
+
