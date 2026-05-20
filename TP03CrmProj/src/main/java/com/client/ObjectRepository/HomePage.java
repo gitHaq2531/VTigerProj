@@ -56,6 +56,9 @@ public class HomePage {
 	@FindBy(linkText = "Trouble Tickets")
 	private WebElement troubleticketLink;
 	
+	@FindBy(id="qccombo")
+	private WebElement quickcreateLink;
+	
 
     public WebElement getTroubleticketLink() {
 		return troubleticketLink;
@@ -100,6 +103,11 @@ public class HomePage {
 	public WebElement getAdminImg() {
 		return adminImg;
 	}
+	
+	public WebElement getQuickcreateLink() {
+		return quickcreateLink;
+	   }
+	
 
 	public WebElement getSignoutlink() {
 		return signoutlink;
@@ -108,6 +116,8 @@ public class HomePage {
     public WebElement getDocLink() {
 		return docLink;
 	}
+    
+    
 
 	public void navigateToCampaignPage() {
 	     Actions act=new Actions(driver);
@@ -128,4 +138,6 @@ public class HomePage {
 	      act.moveToElement(adminImg).perform();
 	        signoutlink.click();
         }
+
+   
 }
