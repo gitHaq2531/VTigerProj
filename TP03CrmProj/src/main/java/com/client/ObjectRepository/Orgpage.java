@@ -27,6 +27,8 @@ public class Orgpage {
 	 @FindBy(xpath="//input[@title='Save [Alt+S]']") 
      private WebElement saveBtn;
 	
+	 
+	 
 	
 	public WebElement getCreateNewOrgBtn() {
 		return CreateNewOrgBtn;	

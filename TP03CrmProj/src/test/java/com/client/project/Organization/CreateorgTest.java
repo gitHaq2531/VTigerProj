@@ -1,8 +1,11 @@
 package com.client.project.Organization;
 
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -64,14 +67,32 @@ public class CreateorgTest extends BaseClass {
 	  	
 	  	Thread.sleep(5000);
 	  	driver.findElement(By.linkText("Today")).click();
-	  	driver.findElement(By.xpath("//input[@title='Save [Alt+S]']")).click();
 
-		System.out.println("updated");
 	}
-
 	
-	
+	@Test
+	public void quickcreatewithorg() throws Throwable {
+		hp.getQuickcreateLink().click();
+		WebElement dd = driver.findElement(By.id("qccombo"));
+		Select sel =new Select(dd);
+		sel.selectByVisibleText("New Organization");
+		Thread.sleep(2000);
+		
+		String orgName =eLib.getDataFromExcel("org", 1, 2)+jLib.getRandomNum();
+		Orgpage op=new Orgpage(driver);
+		op.createOrg(orgName);
+		
+		String HeaderMsg = op.getHeadermsg().getText();
+ 		boolean status = HeaderMsg.contains(orgName);
+		System.out.println(HeaderMsg);
+		Assert.assertEquals(status, true);
+		
+		
+	}
 }
+	
+	
+
 
 		
 
