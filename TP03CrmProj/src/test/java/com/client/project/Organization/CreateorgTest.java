@@ -65,8 +65,6 @@ public class CreateorgTest extends BaseClass {
 	Assert.assertTrue( actualMsg.contains("Editing Organization Information"));
        
 	    System.out.println("Edit message verified successfully");
-	    
-	    
  	
 	}
 	  	
