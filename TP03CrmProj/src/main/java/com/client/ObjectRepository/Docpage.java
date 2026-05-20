@@ -15,6 +15,7 @@ public class Docpage {
 	@FindBy(xpath="//img[@title='Create Document...']")
 	private WebElement CreateDoc;
 	
+	
 	@FindBy(name="notes_title")
 	private WebElement titleEdt;
 	
@@ -24,12 +25,29 @@ public class Docpage {
 	@FindBy(xpath="//span[@class='dvHeaderText']")
 	private WebElement headermsg;
 	
+	@FindBy(linkText = "edit")
+	private WebElement editDoc;
+	
+	@FindBy(xpath="//span[@class='lvtHeaderText']")
+	private WebElement headerEdit;
+	
+	
 	
 	public WebElement getCreateDoc() {
 		 return CreateDoc;
 	}
 	
 	
+	public WebElement getEditDoc() {
+		return editDoc;
+	}
+
+
+	public WebElement getHeaderEdit() {
+		return headerEdit;
+	}
+
+
 	public WebElement getTitleEdt() {
 		return titleEdt;
 	}
