@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-20T15:11:43 IST" name="Default suite" finished-at="2026-05-20T15:11:57 IST" duration-ms="13872">
+    <groups>
+    </groups>
+    <test started-at="2026-05-20T15:11:43 IST" name="Default test" finished-at="2026-05-20T15:11:57 IST" duration-ms="13872">
+      <class name="com.client.project.Document.CreateDocTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.Document.CreateDocTest@44c03695]" started-at="2026-05-20T15:11:43 IST" name="configBS" finished-at="2026-05-20T15:11:43 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.Document.CreateDocTest@44c03695]" started-at="2026-05-20T15:11:43 IST" name="configBC" finished-at="2026-05-20T15:11:45 IST" duration-ms="2485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Document.CreateDocTest@44c03695]" started-at="2026-05-20T15:11:45 IST" name="configBM" finished-at="2026-05-20T15:11:47 IST" duration-ms="2182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="verifyEditRecord()[pri:0, instance:com.client.project.Document.CreateDocTest@44c03695]" started-at="2026-05-20T15:11:47 IST" name="verifyEditRecord" finished-at="2026-05-20T15:11:55 IST" duration-ms="7946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditRecord -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.Document.CreateDocTest@44c03695]" started-at="2026-05-20T15:11:55 IST" name="configAM" finished-at="2026-05-20T15:11:56 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.Document.CreateDocTest@44c03695]" started-at="2026-05-20T15:11:56 IST" name="configAC" finished-at="2026-05-20T15:11:57 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.Document.CreateDocTest@44c03695]" started-at="2026-05-20T15:11:57 IST" name="configAS" finished-at="2026-05-20T15:11:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.client.project.Document.CreateDocTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

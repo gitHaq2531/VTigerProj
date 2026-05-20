@@ -3,17 +3,27 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+
+      <class name="com.client.project.Document.CreateDocTest">
+       </class> <!-- com.client.project.Document.CreateDocTest -->
+
       <class name="com.client.project.TroubleTicket.createTroubleTicketTest">
+
         <methods>
           <include name="configBC"/>
           <include name="configBS"/>
+          <include name="verifyEditRecord"/>
           <include name="configAC"/>
           <include name="configAS"/>
           <include name="createtroubleticketTest"/>
           <include name="configBM"/>
           <include name="configAM"/>
         </methods>
+
+     
+
       </class> <!-- com.client.project.TroubleTicket.createTroubleTicketTest -->
+
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,5 +1,6 @@
 package com.client.project.Document;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -27,8 +28,23 @@ public class CreateDocTest extends BaseClass {
  		boolean status = HeaderMsg.contains(DocName);
 		System.out.println(HeaderMsg);
 		Assert.assertEquals(status, true);
-	
 
 }
+	@Test
+	public void verifyEditRecord() throws Throwable {
+		hp.getDocLink().click();
+		driver.findElement(By.id("31262")).click();
+		
+		Docpage dp=new Docpage(driver);
+		dp.getEditDoc().click();
+		Thread.sleep(2000);
+		
+	    String actualMsg = dp.getHeaderEdit().getText().trim();
+
+		Assert.assertTrue( actualMsg.contains("Editing Document Information"));
+		
+	    System.out.println("Edit message verified successfully");
+ 		
+	}
 }
 
