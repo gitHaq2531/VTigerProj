@@ -27,9 +27,23 @@ public class Orgpage {
 	 @FindBy(xpath="//input[@title='Save [Alt+S]']") 
      private WebElement saveBtn;
 	
+	 @FindBy(linkText ="edit")
+		private WebElement editorg;
+	 
+	 @FindBy(xpath="//span[@class='lvtHeaderText']")
+		private WebElement headerOrgEdit;
 	 
 	 
 	
+	
+	public WebElement getHeaderOrgEdit() {
+		return headerOrgEdit;
+	}
+
+	public WebElement getEditorg() {
+		return editorg;
+	}
+
 	public WebElement getCreateNewOrgBtn() {
 		return CreateNewOrgBtn;	
  }
