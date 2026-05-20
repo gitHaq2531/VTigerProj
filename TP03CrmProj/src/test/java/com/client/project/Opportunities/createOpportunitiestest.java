@@ -22,6 +22,7 @@ public class createOpportunitiestest extends BaseClass{
 		Assert.assertEquals(status, true);
 		System.out.println(status);
 		System.out.println("updated");
+		System.out.println("updated2");
 			
 		}
 		
