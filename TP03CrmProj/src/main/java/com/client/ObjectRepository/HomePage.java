@@ -44,6 +44,9 @@ public class HomePage {
 	@FindBy(linkText="Sign Out")
 	private WebElement signoutlink;
 	
+	@FindBy(linkText = "Documents")
+	private WebElement docLink;
+	
 	
 	
 	
@@ -86,8 +89,12 @@ public class HomePage {
 	public WebElement getSignoutlink() {
 		return signoutlink;
 	}
+	
+    public WebElement getDocLink() {
+		return docLink;
+	}
 
-    public void navigateToCampaignPage() {
+	public void navigateToCampaignPage() {
 	     Actions act=new Actions(driver);
 	      act.moveToElement(morelink).perform();
 	        campaignlink.click();

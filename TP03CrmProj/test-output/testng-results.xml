@@ -1,104 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-19T18:09:34 IST" name="Default suite" finished-at="2026-05-19T18:10:11 IST" duration-ms="36928">
+  <suite started-at="2026-05-20T12:54:24 IST" name="Default suite" finished-at="2026-05-20T12:54:39 IST" duration-ms="15130">
     <groups>
     </groups>
-    <test started-at="2026-05-19T18:09:34 IST" name="Default test" finished-at="2026-05-19T18:10:11 IST" duration-ms="36928">
-      <class name="com.client.project.Organization.CreateorgTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.Organization.CreateorgTest@44c03695]" started-at="2026-05-19T18:09:34 IST" name="configBS" finished-at="2026-05-19T18:09:34 IST" duration-ms="40" status="PASS">
+    <test started-at="2026-05-20T12:54:24 IST" name="Default test" finished-at="2026-05-20T12:54:39 IST" duration-ms="15130">
+      <class name="com.client.project.Document.CreateDocTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.Document.CreateDocTest@6150c3ec]" started-at="2026-05-20T12:54:24 IST" name="configBS" finished-at="2026-05-20T12:54:24 IST" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.Organization.CreateorgTest@44c03695]" started-at="2026-05-19T18:09:34 IST" name="configBC" finished-at="2026-05-19T18:09:36 IST" duration-ms="2216" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.Document.CreateDocTest@6150c3ec]" started-at="2026-05-20T12:54:24 IST" name="configBC" finished-at="2026-05-20T12:54:28 IST" duration-ms="3728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Organization.CreateorgTest@44c03695]" started-at="2026-05-19T18:09:36 IST" name="configBM" finished-at="2026-05-19T18:09:38 IST" duration-ms="2143" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Document.CreateDocTest@6150c3ec]" started-at="2026-05-20T12:54:28 IST" name="configBM" finished-at="2026-05-20T12:54:30 IST" duration-ms="2634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createOrgWithEvent()[pri:0, instance:com.client.project.Organization.CreateorgTest@44c03695]" started-at="2026-05-19T18:09:38 IST" name="createOrgWithEvent" finished-at="2026-05-19T18:10:10 IST" duration-ms="31394" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Today"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1bb0cfa9a3a917010fc925048ae2c2d1, findElement {using=link text, value=Today}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59424}, goog:processID: 30404, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59424/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1bb0cfa9a3a917010fc925048ae2c2d1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Today"}
-  (Session info: chrome=148.0.7778.168)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: '4.41.0', revision: '9fc754f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1bb0cfa9a3a917010fc925048ae2c2d1, findElement {using=link text, value=Today}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.168, chrome: {chromedriverVersion: 148.0.7778.167 (65db666ac2c..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59424}, goog:processID: 30404, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59424/devtoo..., se:cdpVersion: 148.0.7778.168, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1bb0cfa9a3a917010fc925048ae2c2d1
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
-at com.client.project.Organization.CreateorgTest.createOrgWithEvent(CreateorgTest.java:66)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="createDocTest()[pri:0, instance:com.client.project.Document.CreateDocTest@6150c3ec]" started-at="2026-05-20T12:54:30 IST" name="createDocTest" finished-at="2026-05-20T12:54:38 IST" duration-ms="7416" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrgWithEvent -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.Organization.CreateorgTest@44c03695]" started-at="2026-05-19T18:10:10 IST" name="configAM" finished-at="2026-05-19T18:10:11 IST" duration-ms="856" status="PASS">
+        </test-method> <!-- createDocTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.Document.CreateDocTest@6150c3ec]" started-at="2026-05-20T12:54:38 IST" name="configAM" finished-at="2026-05-20T12:54:39 IST" duration-ms="1058" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.Organization.CreateorgTest@44c03695]" started-at="2026-05-19T18:10:11 IST" name="configAC" finished-at="2026-05-19T18:10:11 IST" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.Document.CreateDocTest@6150c3ec]" started-at="2026-05-20T12:54:39 IST" name="configAC" finished-at="2026-05-20T12:54:39 IST" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.Organization.CreateorgTest@44c03695]" started-at="2026-05-19T18:10:11 IST" name="configAS" finished-at="2026-05-19T18:10:11 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.Document.CreateDocTest@6150c3ec]" started-at="2026-05-20T12:54:39 IST" name="configAS" finished-at="2026-05-20T12:54:39 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.client.project.Organization.CreateorgTest -->
+      </class> <!-- com.client.project.Document.CreateDocTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
