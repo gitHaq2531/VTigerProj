@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 import com.client.ObjectRepository.HomePage;
 import com.client.ObjectRepository.InvoicePage;
 import com.client.ObjectRepository.ProductPage;
+import com.client.ObjectRepository.SalesOrderPage;
 import com.client.Project.packageName.BaseClass;
 
 /**
@@ -71,11 +72,35 @@ public class CreateProductTest extends BaseClass {
 		ip.getInvoicLink().click();
 		ip.CreateInvoice(InvName);
 		
+	}
+	
+	@Test
+	public void CreateSalesOrder() throws Throwable {
+		String ProductName =eLib.getDataFromExcel("org", 7, 2)+jLib.getRandomNum();
+		hp.getProductLink().click();
 		
+		ProductPage pp=new ProductPage(driver);
+		pp.getCreateNewProBtn().click();
+		
+		 pp.createProduct(ProductName);
+		 
+		 /*salesorder page details*/
+	
+	String Subject =eLib.getDataFromExcel("org", 24, 2)+jLib.getRandomNum();
+			
+		  SalesOrderPage sop=new SalesOrderPage(driver);
+		  sop.getCreatesalesorder().click();
+		  sop.createSales(Subject);
+		  
+
+		  String headerMsg = sop.getHeadermsg().getText();
+		  System.out.println(headerMsg);
+		  Assert.assertTrue(headerMsg.contains(Subject), "Sales Order was not created successfully");
+		  	
+	}	
+	}
+	
 		
 
-		}
-	
-		}
 	
 	

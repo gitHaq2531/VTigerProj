@@ -47,10 +47,6 @@ public class CreateorgTest extends BaseClass {
 		Assert.assertEquals(status, true);
   		
    }
-
-
-	
-
 	@Test
 	public void editOrg() throws Throwable {
 		
@@ -61,16 +57,13 @@ public class CreateorgTest extends BaseClass {
 		Orgpage op=new Orgpage(driver);
 		op.getEditorg().click();
 		
-	  String actualMsg = op.getHeaderOrgEdit().getText().trim();
-	Assert.assertTrue( actualMsg.contains("Editing Organization Information"));
+	     String actualMsg = op.getHeaderOrgEdit().getText().trim();
+	       Assert.assertTrue( actualMsg.contains("Editing Organization Information"));
        
 	    System.out.println("Edit message verified successfully");
  	
 	}
 	  	
-
-
-	
 	
 	@Test
 	public void quickcreatewithorg() throws Throwable {
@@ -91,6 +84,7 @@ public class CreateorgTest extends BaseClass {
 		
 		
 	}
+	
 }
 	
 	

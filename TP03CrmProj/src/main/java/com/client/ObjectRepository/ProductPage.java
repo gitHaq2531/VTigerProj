@@ -15,8 +15,7 @@ public class ProductPage {
 	@FindBy(xpath = "//img[@title='Create Product...']")
 	private WebElement CreateNewProBtn;
 	
-	@FindBy(name="productname")
-	private WebElement ProductNameEdt;
+	
 	
 	@FindBy(xpath="//span[@class='lvtHeaderText']")
 	private WebElement Headermsg;
@@ -31,6 +30,10 @@ public class ProductPage {
 	private WebElement Qtystock;
 	
 	
+	@FindBy(name="productname")
+	private WebElement ProductNameEdt;
+	
+
 	public WebElement getCreateNewProBtn() {
 		return CreateNewProBtn;
 	}
@@ -62,15 +65,12 @@ public class ProductPage {
 
 	
 
-
 	public void createProduct(String ProductName) {
-		
 		ProductNameEdt.sendKeys(ProductName);
 		StkPrice.sendKeys("1000");
 		Qtystock.sendKeys("20");
 		 saveBtn.click();
 	}
-	
 	
 
 }
