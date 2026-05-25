@@ -3,9 +3,9 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.client.project.Campaign.CreateCampaignTest">
+      <class name="com.client.project.Opportunities.createOpportunitiestest">
         <methods>
-          <include name="deleteCampaignTest"/>
+          <include name="editOpportunityTest"/>
           <include name="configBC"/>
           <include name="configBS"/>
           <include name="configAC"/>
@@ -13,7 +13,7 @@
           <include name="configBM"/>
           <include name="configAM"/>
         </methods>
-      </class> <!-- com.client.project.Campaign.CreateCampaignTest -->
+      </class> <!-- com.client.project.Opportunities.createOpportunitiestest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

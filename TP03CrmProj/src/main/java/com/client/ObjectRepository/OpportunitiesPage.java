@@ -33,6 +33,15 @@ public class OpportunitiesPage {
 	@FindBy(xpath = "//span[@class='dvHeaderText']")
 	private WebElement headerMSG;
 	
+	@FindBy(xpath = "//span[@class='lvtHeaderText']")
+	private WebElement editheaderInfoOpprtunity;
+	
+	
+	
+	
+	public WebElement getEditheaderInfoOpprtunity() {
+		return editheaderInfoOpprtunity;
+	}
 	@FindBy(xpath = "//td[text()='Campaign Source 			']/parent::tr//img")
 	private WebElement campaignBtnEdit;
 	
