@@ -29,7 +29,7 @@ public class CreateCampaignTest extends BaseClass {
 	
     @Test
     
-    public void deleteCampaignTest() {
+    public void editCampaignTest() {
     	hp.getMorelink().click();
 		hp.getCampaignlink().click();
 		
