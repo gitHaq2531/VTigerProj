@@ -27,6 +27,9 @@ public class LeadPage {
 	private WebElement infoMsg;
 	
 	
+	@FindBy(xpath = "//span[@class='lvtHeaderText']")
+	private WebElement editlead;
+	
 	public WebElement getInfoMsg() {
 		return infoMsg;
 	}
@@ -46,6 +49,10 @@ public class LeadPage {
 	public WebElement getSaveBTN() {
 		return saveBTN;
 	}
+	
+	public WebElement getEditlead() {
+		return editlead;
+		}
 	
 	public void createLead(String lastName, String company) {
 		createLeadEdit.click();
