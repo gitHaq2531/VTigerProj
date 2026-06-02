@@ -35,6 +35,7 @@ public class createLeadTest extends BaseClass{
 	    driver.findElement(By.id("36625")).click();
 	    Orgpage op1=new Orgpage(driver);
 		op1.getEditorg().click();
+		System.out.println("edited lead");
 	  
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
 		LeadPage ldp = new LeadPage(driver);
