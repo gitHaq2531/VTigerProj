@@ -31,7 +31,7 @@ public class InvoicePage {
 	@FindBy(xpath = "//img[@title='Select' and contains(@onclick, 'return')]")
 	private WebElement selOrgName;
 	
-	@FindBy(linkText = "Pyramid Lenovo_4927")
+	@FindBy(linkText = "Sdet46_416")
 	private WebElement searchorg;
 	
 	@FindBy(xpath = "//input[@title='Save [Alt+S]']")
