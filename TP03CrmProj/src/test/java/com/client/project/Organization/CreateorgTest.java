@@ -52,7 +52,7 @@ public class CreateorgTest extends BaseClass {
 		
 		hp.getOrgLink().click();
 		
-		driver.findElement(By.id("40922")).click();
+		driver.findElement(By.id("109805")).click();
 		
 		Orgpage op=new Orgpage(driver);
 		op.getEditorg().click();

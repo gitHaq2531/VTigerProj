@@ -35,7 +35,8 @@ public class createTroubleTicketTest extends BaseClass{
 		String faq = driver.findElement(By.xpath("//span[@class='dvHeaderText']")).getText();
 		System.out.println(faq);
 		
-		
 	}
+	
+	
 
 }
