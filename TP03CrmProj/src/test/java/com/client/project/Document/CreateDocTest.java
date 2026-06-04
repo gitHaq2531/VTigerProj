@@ -35,7 +35,7 @@ public class CreateDocTest extends BaseClass {
 	public void verifyEditRecord() throws Throwable {
 		hp.getDocLink().click();
 		
-		driver.findElement(By.id("31262")).click();
+		driver.findElement(By.id("110043")).click();
 		
 		Docpage dp=new Docpage(driver);
 		dp.getEditDoc().click();
@@ -52,7 +52,7 @@ public class CreateDocTest extends BaseClass {
 	@Test
 	public void VerifyDeleteRecord() throws Throwable {
 		hp.getDocLink().click();
-	    driver.findElement(By.id("35983")).click();
+	    driver.findElement(By.id("110053")).click();
 
 	    Docpage dp = new Docpage(driver);
 	    dp.getDeleteDoc().click();

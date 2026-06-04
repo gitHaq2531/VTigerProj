@@ -9,7 +9,11 @@
           <include name="configBS"/>
           <include name="configAC"/>
           <include name="configAS"/>
+<<<<<<< HEAD
           <include name="createtroubleticketTest"/>
+=======
+          <include name="CreateSalesOrder"/>
+>>>>>>> refs/heads/master
           <include name="configBM"/>
           <include name="configAM"/>
         </methods>
