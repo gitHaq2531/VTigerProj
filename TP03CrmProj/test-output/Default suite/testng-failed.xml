@@ -3,7 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.client.project.Campaign.CreateCampaignTest">
+=======
+      <class name="com.client.project.Product.CreateProductTest">
+>>>>>>> refs/heads/master
         <methods>
           <include name="createCampaigntest"/>
           <include name="configBC"/>
@@ -11,9 +15,14 @@
           <include name="configAC"/>
           <include name="configAS"/>
           <include name="configBM"/>
+          <include name="CreateInvoiceWithProduct"/>
           <include name="configAM"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- com.client.project.Campaign.CreateCampaignTest -->
+=======
+      </class> <!-- com.client.project.Product.CreateProductTest -->
+>>>>>>> refs/heads/master
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
