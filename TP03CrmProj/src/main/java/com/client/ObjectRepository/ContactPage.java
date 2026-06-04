@@ -43,7 +43,7 @@ public class ContactPage {
 	@FindBy(xpath = "//img[@title='Select']")
 	private WebElement orgbtnEdit;
 	
-	@FindBy(linkText = "Instagram Pay")
+	@FindBy(linkText = "Sdet46_416")
 	private WebElement orgnName;
 	
 	public WebElement getOrgbtnEdit() {
