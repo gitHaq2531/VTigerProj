@@ -1,41 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-02T10:40:22 IST" name="Default suite" finished-at="2026-06-02T10:40:31 IST" duration-ms="8979">
+  <suite started-at="2026-06-03T10:30:14 IST" name="Default suite" finished-at="2026-06-03T10:31:07 IST" duration-ms="53357">
     <groups>
     </groups>
-    <test started-at="2026-06-02T10:40:22 IST" name="Default test" finished-at="2026-06-02T10:40:31 IST" duration-ms="8979">
-      <class name="com.client.project.Lead.createLeadTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.Lead.createLeadTest@44c03695]" started-at="2026-06-02T10:40:22 IST" name="configBS" finished-at="2026-06-02T10:40:22 IST" duration-ms="42" status="PASS">
+    <test started-at="2026-06-03T10:30:14 IST" name="Default test" finished-at="2026-06-03T10:31:07 IST" duration-ms="53357">
+      <class name="com.client.project.Campaign.CreateCampaignTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.Campaign.CreateCampaignTest@393671df]" started-at="2026-06-03T10:30:14 IST" name="configBS" finished-at="2026-06-03T10:30:14 IST" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.Lead.createLeadTest@44c03695]" started-at="2026-06-02T10:40:22 IST" name="configBC" finished-at="2026-06-02T10:40:24 IST" duration-ms="2411" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.Campaign.CreateCampaignTest@393671df]" started-at="2026-06-03T10:30:14 IST" name="configBC" finished-at="2026-06-03T10:30:21 IST" duration-ms="6817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Lead.createLeadTest@44c03695]" started-at="2026-06-02T10:40:24 IST" name="configBM" finished-at="2026-06-02T10:40:27 IST" duration-ms="2578" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Campaign.CreateCampaignTest@393671df]" started-at="2026-06-03T10:30:21 IST" name="configBM" finished-at="2026-06-03T10:30:23 IST" duration-ms="2157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="editleadTest()[pri:0, instance:com.client.project.Lead.createLeadTest@44c03695]" started-at="2026-06-02T10:40:27 IST" name="editleadTest" finished-at="2026-06-02T10:40:30 IST" duration-ms="2595" status="PASS">
+        <test-method signature="createCampaigntest()[pri:0, instance:com.client.project.Campaign.CreateCampaignTest@393671df]" started-at="2026-06-03T10:30:23 IST" name="createCampaigntest" finished-at="2026-06-03T10:30:47 IST" duration-ms="24150" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Grinder2849"}
+  (Session info: chrome=141.0.7390.55)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07e77ba8a7b510e9f9bc0413650d84ad, findElement {using=link text, value=Grinder2849}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.55, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: /var/folders/s4/g5jdrl354dv...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49260/devtoo..., se:cdpVersion: 141.0.7390.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07e77ba8a7b510e9f9bc0413650d84ad]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Grinder2849"}
+  (Session info: chrome=141.0.7390.55)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07e77ba8a7b510e9f9bc0413650d84ad, findElement {using=link text, value=Grinder2849}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.55, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: /var/folders/s4/g5jdrl354dv...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49260/devtoo..., se:cdpVersion: 141.0.7390.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07e77ba8a7b510e9f9bc0413650d84ad
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at com.client.ObjectRepository.CampaignPage.createCampaign(CampaignPage.java:81)
+at com.client.project.Campaign.CreateCampaignTest.createCampaigntest(CreateCampaignTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editleadTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.Lead.createLeadTest@44c03695]" started-at="2026-06-02T10:40:30 IST" name="configAM" finished-at="2026-06-02T10:40:31 IST" duration-ms="1105" status="PASS">
+        </test-method> <!-- createCampaigntest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.Campaign.CreateCampaignTest@393671df]" started-at="2026-06-03T10:30:47 IST" name="configAM" finished-at="2026-06-03T10:31:07 IST" duration-ms="20041" status="FAIL">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07e77ba8a7b510e9f9bc0413650d84ad, actions {actions=[org.openqa.selenium.interactions.Sequence@2fe88a09]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.55, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: /var/folders/s4/g5jdrl354dv...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49260/devtoo..., se:cdpVersion: 141.0.7390.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07e77ba8a7b510e9f9bc0413650d84ad]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07e77ba8a7b510e9f9bc0413650d84ad, actions {actions=[org.openqa.selenium.interactions.Sequence@2fe88a09]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.55, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: /var/folders/s4/g5jdrl354dv...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49260/devtoo..., se:cdpVersion: 141.0.7390.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07e77ba8a7b510e9f9bc0413650d84ad
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:521)
+at org.openqa.selenium.json.JsonOutput.lambda$new$15(JsonOutput.java:179)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
+at org.openqa.selenium.json.JsonOutput.lambda$new$21(JsonOutput.java:201)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:632)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:201)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:219)
+at java.base/java.util.ImmutableCollections$Map1.forEach(ImmutableCollections.java:1401)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:214)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:410)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:397)
+at org.openqa.selenium.json.Json.toJson(Json.java:134)
+at org.openqa.selenium.json.Json.toJson(Json.java:120)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:244)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:113)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:211)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:699)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:581)
+at com.client.ObjectRepository.HomePage.logout(HomePage.java:138)
+at com.client.Project.packageName.BaseClass.configAM(BaseClass.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:802)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:778)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '25.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:432)
+at org.openqa.selenium.json.Json.toJson(Json.java:132)
+... 43 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:517)
+... 64 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='themes/softed/images/user.PNG']"}
+  (Session info: chrome=141.0.7390.55)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07e77ba8a7b510e9f9bc0413650d84ad, findElement {using=xpath, value=//img[@src='themes/softed/images/user.PNG']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.55, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: /var/folders/s4/g5jdrl354dv...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49260/devtoo..., se:cdpVersion: 141.0.7390.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07e77ba8a7b510e9f9bc0413650d84ad
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:427)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:262)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:211)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:74)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+... 66 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.Lead.createLeadTest@44c03695]" started-at="2026-06-02T10:40:31 IST" name="configAC" finished-at="2026-06-02T10:40:31 IST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.Campaign.CreateCampaignTest@393671df]" started-at="2026-06-03T10:31:07 IST" name="configAC" finished-at="2026-06-03T10:31:07 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.Lead.createLeadTest@44c03695]" started-at="2026-06-02T10:40:31 IST" name="configAS" finished-at="2026-06-02T10:40:31 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.Campaign.CreateCampaignTest@393671df]" started-at="2026-06-03T10:31:07 IST" name="configAS" finished-at="2026-06-03T10:31:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.client.project.Lead.createLeadTest -->
+      </class> <!-- com.client.project.Campaign.CreateCampaignTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
