@@ -33,10 +33,7 @@ public class createTroubleTicketTest extends BaseClass{
 		
 		driver.findElement(By.linkText("Convert As FAQ")).click();
 		String faq = driver.findElement(By.xpath("//span[@class='dvHeaderText']")).getText();
-		System.out.println(faq);
-		
+		System.out.println(faq);		
 	}
-	
-	
 
 }
