@@ -32,7 +32,7 @@ public class CreateContactTest extends BaseClass{
 	@Test
 	public void createContactWithOrgTest() throws Throwable {
 		String lastName = eLib.getDataFromExcel("org", 4, 2)+jLib.getRandomNum();
-		String orgName =eLib.getDataFromExcel("org", 1, 2)+jLib.getRandomNum();
+		//String orgName =eLib.getDataFromExcel("org", 1, 2)+jLib.getRandomNum();
 		
 		hp.getContactLink().click();
 		

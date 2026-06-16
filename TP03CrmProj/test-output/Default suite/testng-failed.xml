@@ -3,17 +3,33 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.client.project.Campaign.CreateCampaignTest">
+=======
+      <class name="com.client.project.TroubleTicket.createTroubleTicketTest">
+>>>>>>> refs/heads/master
         <methods>
           <include name="configBC"/>
           <include name="configBS"/>
           <include name="configAC"/>
           <include name="configAS"/>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+          <include name="createtroubleticketTest"/>
+=======
+          <include name="CreateSalesOrder"/>
+>>>>>>> refs/heads/master
+>>>>>>> refs/heads/master
           <include name="configBM"/>
           <include name="configAM"/>
           <include name="editCampaignTest"/>
         </methods>
+<<<<<<< HEAD
       </class> <!-- com.client.project.Campaign.CreateCampaignTest -->
+=======
+      </class> <!-- com.client.project.TroubleTicket.createTroubleTicketTest -->
+>>>>>>> refs/heads/master
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
