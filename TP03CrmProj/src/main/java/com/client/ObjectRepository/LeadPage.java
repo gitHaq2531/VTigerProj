@@ -30,6 +30,10 @@ public class LeadPage {
 	@FindBy(xpath = "//span[@class='lvtHeaderText']")
 	private WebElement editlead;
 	
+	@FindBy(linkText = "del")
+	private WebElement deleteLead;
+	
+	
 	public WebElement getInfoMsg() {
 		return infoMsg;
 	}
@@ -54,6 +58,10 @@ public class LeadPage {
 		return editlead;
 		}
 	
+	public WebElement getDeleteLead() {
+		return deleteLead;
+	}
+
 	public void createLead(String lastName, String company) {
 		createLeadEdit.click();
 		lastNameEdit.sendKeys(lastName);

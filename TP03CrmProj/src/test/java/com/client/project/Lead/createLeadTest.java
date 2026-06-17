@@ -1,5 +1,6 @@
 package com.client.project.Lead;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -28,11 +29,14 @@ public class createLeadTest extends BaseClass{
 		
 	}
 	
+	/*
+	 * @author : Nilam
+	 * */
 	@Test
 	public void editleadTest() throws Throwable {
 		
 		 hp.getLeadslink().click();
-	    driver.findElement(By.id("36625")).click();
+	    driver.findElement(By.id("109916")).click();
 	    Orgpage op1=new Orgpage(driver);
 		op1.getEditorg().click();
 		System.out.println("edited lead");
@@ -48,9 +52,31 @@ public class createLeadTest extends BaseClass{
 		
 	    	
 	}
+	/*
+	 * @author : Nilam
+	 * */
+	@Test
+	public void DeleteleadTest() {
+		hp.getLeadslink().click();
+		driver.findElement(By.id("109924")).click();
+		LeadPage ldp=new LeadPage(driver);
+		ldp.getDeleteLead().click();
 		
+		Alert alt = driver.switchTo().alert();
+
+	    String actualPopupMsg = alt.getText();
+	    System.out.println(actualPopupMsg);
+
+	    Assert.assertTrue(actualPopupMsg.contains("Delete"),"Delete confirmation popup not displayed correctly" );
+	  
+	    alt.dismiss();
 		
 	}
+		
+	}
+		
+		
+	
 	
 	
 	
