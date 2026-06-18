@@ -9,7 +9,7 @@
           <include name="configBS"/>
           <include name="configAC"/>
           <include name="configAS"/>
-          <include name="editleadTest"/>
+          <include name="VerifyDashboardandLeadIntergation"/>
           <include name="configBM"/>
           <include name="configAM"/>
         </methods>
