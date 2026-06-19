@@ -2,31 +2,61 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
+  <suite started-at="2026-06-19T11:05:37 IST" name="Default suite" finished-at="2026-06-19T11:06:04 IST" duration-ms="26601">
+=======
   <suite started-at="2026-06-19T10:54:05 IST" name="Default suite" finished-at="2026-06-19T10:54:31 IST" duration-ms="26149">
+>>>>>>> refs/heads/master
     <groups>
     </groups>
+<<<<<<< HEAD
+    <test started-at="2026-06-19T11:05:37 IST" name="Default test" finished-at="2026-06-19T11:06:04 IST" duration-ms="26601">
+      <class name="com.client.project.TroubleTicket.createTroubleTicketTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.TroubleTicket.createTroubleTicketTest@4009e306]" started-at="2026-06-19T11:05:37 IST" name="configBS" finished-at="2026-06-19T11:05:37 IST" duration-ms="94" status="PASS">
+=======
     <test started-at="2026-06-19T10:54:05 IST" name="Default test" finished-at="2026-06-19T10:54:31 IST" duration-ms="26149">
       <class name="com.client.project.Opportunities.createOpportunitiestest">
         <test-method is-config="true" signature="configBS()[pri:0, instance:com.client.project.Opportunities.createOpportunitiestest@1dde4cb2]" started-at="2026-06-19T10:54:05 IST" name="configBS" finished-at="2026-06-19T10:54:05 IST" duration-ms="47" status="PASS">
+>>>>>>> refs/heads/master
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.TroubleTicket.createTroubleTicketTest@4009e306]" started-at="2026-06-19T11:05:37 IST" name="configBC" finished-at="2026-06-19T11:05:47 IST" duration-ms="9566" status="PASS">
+=======
         <test-method is-config="true" signature="configBC()[pri:0, instance:com.client.project.Opportunities.createOpportunitiestest@1dde4cb2]" started-at="2026-06-19T10:54:05 IST" name="configBC" finished-at="2026-06-19T10:54:08 IST" duration-ms="3542" status="PASS">
+>>>>>>> refs/heads/master
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.TroubleTicket.createTroubleTicketTest@4009e306]" started-at="2026-06-19T11:05:47 IST" name="configBM" finished-at="2026-06-19T11:05:48 IST" duration-ms="1477" status="PASS">
+=======
         <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Opportunities.createOpportunitiestest@1dde4cb2]" started-at="2026-06-19T10:54:08 IST" name="configBM" finished-at="2026-06-19T10:54:09 IST" duration-ms="368" status="PASS">
+>>>>>>> refs/heads/master
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
+<<<<<<< HEAD
+        <test-method signature="createtroubleticketwithFAQTest()[pri:0, instance:com.client.project.TroubleTicket.createTroubleTicketTest@4009e306]" started-at="2026-06-19T11:05:48 IST" name="createtroubleticketwithFAQTest" finished-at="2026-06-19T11:06:00 IST" duration-ms="11625" status="PASS">
+=======
         <test-method signature="createOpportunitiesTest()[pri:0, instance:com.client.project.Opportunities.createOpportunitiestest@1dde4cb2]" started-at="2026-06-19T10:54:09 IST" name="createOpportunitiesTest" finished-at="2026-06-19T10:54:17 IST" duration-ms="8281" status="PASS">
+>>>>>>> refs/heads/master
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
+        </test-method> <!-- createtroubleticketwithFAQTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.TroubleTicket.createTroubleTicketTest@4009e306]" started-at="2026-06-19T11:06:00 IST" name="configAM" finished-at="2026-06-19T11:06:01 IST" duration-ms="1320" status="PASS">
+=======
         </test-method> <!-- createOpportunitiesTest -->
         <test-method is-config="true" signature="configAM()[pri:0, instance:com.client.project.Opportunities.createOpportunitiestest@1dde4cb2]" started-at="2026-06-19T10:54:17 IST" name="configAM" finished-at="2026-06-19T10:54:18 IST" duration-ms="842" status="PASS">
+>>>>>>> refs/heads/master
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.TroubleTicket.createTroubleTicketTest@4009e306]" started-at="2026-06-19T11:06:01 IST" name="configAC" finished-at="2026-06-19T11:06:04 IST" duration-ms="2525" status="PASS">
+=======
         <test-method is-config="true" signature="configBM()[pri:0, instance:com.client.project.Opportunities.createOpportunitiestest@1dde4cb2]" started-at="2026-06-19T10:54:18 IST" name="configBM" finished-at="2026-06-19T10:54:18 IST" duration-ms="360" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -52,14 +82,23 @@
           </reporter-output>
         </test-method> <!-- configAM -->
         <test-method is-config="true" signature="configAC()[pri:0, instance:com.client.project.Opportunities.createOpportunitiestest@1dde4cb2]" started-at="2026-06-19T10:54:31 IST" name="configAC" finished-at="2026-06-19T10:54:31 IST" duration-ms="272" status="PASS">
+>>>>>>> refs/heads/master
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
+<<<<<<< HEAD
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.TroubleTicket.createTroubleTicketTest@4009e306]" started-at="2026-06-19T11:06:04 IST" name="configAS" finished-at="2026-06-19T11:06:04 IST" duration-ms="0" status="PASS">
+=======
         <test-method is-config="true" signature="configAS()[pri:0, instance:com.client.project.Opportunities.createOpportunitiestest@1dde4cb2]" started-at="2026-06-19T10:54:31 IST" name="configAS" finished-at="2026-06-19T10:54:31 IST" duration-ms="1" status="PASS">
+>>>>>>> refs/heads/master
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
+<<<<<<< HEAD
+      </class> <!-- com.client.project.TroubleTicket.createTroubleTicketTest -->
+=======
       </class> <!-- com.client.project.Opportunities.createOpportunitiestest -->
+>>>>>>> refs/heads/master
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
