@@ -24,7 +24,7 @@ public class OpportunitiesPage {
 	@FindBy(xpath = "//img[@title='Select']")
 	private WebElement relatedToEdit;
 	
-	@FindBy(linkText = "Instagram Pay")
+	@FindBy(linkText = "Sdet46_416")
 	private WebElement orgnName;
 	
 	@FindBy(xpath = "//input[@title='Save [Alt+S]']")
@@ -45,7 +45,7 @@ public class OpportunitiesPage {
 	@FindBy(xpath = "//td[text()='Campaign Source 			']/parent::tr//img")
 	private WebElement campaignBtnEdit;
 	
-	@FindBy(linkText = "Greenliving1900")
+	@FindBy(linkText = "Dummy_Campaign_MCP_Test")
 	private WebElement campaignEdit;
 	
 	
