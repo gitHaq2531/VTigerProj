@@ -74,6 +74,9 @@ public class createLeadTest extends BaseClass{
 		
 	}
 	
+	/*
+	 * @author : Nilam
+	 * */
 	@Test
 	public void VerifyDashboardandLeadIntergation() throws Throwable {
 		hp.getLeadslink().click();
@@ -102,7 +105,7 @@ public class createLeadTest extends BaseClass{
 
 	    // Verify Lead Name field
 	    String actualLeadName = driver.findElement(By.id("mouseArea_Last Name")).getText();
-	    Assert.assertEquals(actualLeadName,"  Singh_744","Lead name verification failed");
+	    Assert.assertEquals(actualLeadName,"  Singh_744","Lead name verification passed");
 	}
 		
 	}
